@@ -1,0 +1,57 @@
+
+```html
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Instagram Login</title>
+    <style>
+        body {
+            background-color: #FAFAFA;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 100px;
+        }
+
+        .container {
+            width: 300px;
+            margin: 0 auto;
+        }
+
+        input[type="text"],
+        input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+            box-sizing: border-box;
+        }
+
+        input[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            background-color: #3897f0;
+            border: none;
+            color: white;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+              background-color: #3268a8;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h2>Instagram</h2>
+        <form action="#">
+            <input type="text" placeholder="Username" required><br>
+            <input type="password" placeholder="Password" required><br>
+            <input type="submit" value="Log In">
+        </form>
+    </div>
+</body>
+
+</html>
+```
